@@ -1,0 +1,37 @@
+/*
+ * Triangle.java        0.1 4 Mar 2016
+ *
+ * Modelizes the program.
+ *
+ * Copyright 2016 Gerard Segarra <gersegarra@gmail.com>
+ *
+ * This is free software, licensed under the GNU General Public License v3.
+ * See http://www.gnu.org/licenses/gpl.html for more information.
+ */
+
+public class Triangle {
+    
+    // The first side.
+    private double side1;
+    // The second side.
+    private double side2;
+    // The third side3.
+    private double side3;
+    
+    /**
+     * Constructir by default.
+     */
+    public Triangle() {
+        this.side1 = 3;
+        this.side2 = 4;
+        this.side3 = 5;
+    }
+    
+    /**
+     * Constructor.
+     */
+    public Trinagle(double side1, double side2, double side3) {
+        this.side1 = side1;
+        this.side2 = side2;
+        thsi.side3 = side3;
+    }
